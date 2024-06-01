@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      .custom-font {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="room.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-text
+        class="custom-font"
+        value="Prathamesh's House"
+        width="10"
+        position="-2.5 1.50 -0.5"
+        rotation="0 100 0"
+        color="#fff"
+      ></a-text>
+    </a-scene>
+  </body>
+</html>
